@@ -20,3 +20,17 @@ class WordList:
         'database', 'framework', 'interface', 'inheritance', 'polymorphism',
         'abstraction', 'encapsulation', 'optimization', 'debugging', 'testing'
     ]
+
+    @staticmethod
+    def get_random_word():
+        """
+        Get a random word from the words list.
+
+        This method retrieves a random word from the predefined list of words.
+
+        Returns:
+        - random_word: A randomly selected word from the words list.
+        """
+        # Use random.choice() function to select a random word from the list.
+        return random.choice(WordList.words)
+        
