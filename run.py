@@ -190,3 +190,47 @@ class Hangman:
                 print(Fore.LIGHTRED_EX + "You already guessed that letter.")
             else:
                 return guess
+
+    def play(self):
+        """
+        Execute the Hangman game.
+
+        This method initiates the Hangman game. It displays the current state
+        of the word, prompts the player to guess a letter, updates the guessed
+        letters, and checks if the player has guessed the word correctly or run
+        out of guesses.
+
+        Returns:
+        - None
+        """
+        # Display a welcome message for the Hangman game.
+        print(Fore.LIGHTWHITE_EX + "Let's play Hangman!")
+
+        # Main game loop
+        while self.guesses_left > 0:
+            # Display the current state of the word and remaining guesses.
+            print(Fore.LIGHTCYAN_EX + "Word: " + self.display_word())
+            print(Fore.LIGHTCYAN_EX + "Guesses left: " +
+                                      str(self.guesses_left))
+
+            # Prompt the player to guess a letter.
+            guess = self.guess_letter()
+
+            # Add the guessed letter to the set of guessed letters.
+            self.guessed_letters.add(guess)
+
+            # Check if the guessed letter is not in the secret word.
+            if guess not in self.secret_word:
+                self.guesses_left -= 1
+
+            # Check if the player has guessed the entire word correctly.
+            if self.display_word() == self.secret_word:
+                print(Fore.LIGHTYELLOW_EX +
+                      "Congratulations! You guessed the word: " +
+                      self.secret_word)
+                break
+        else:
+            # If the player runs out of guesses, display the correct word.
+            print(Fore.LIGHTRED_EX +
+                  "Sorry, you're out of guesses. The word was: " +
+                  self.secret_word)
