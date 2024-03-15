@@ -78,3 +78,43 @@ class GameMenu:
                                   "to form the correct word.")
         print(Fore.LIGHTCYAN_EX + "Arithmetic Game: Answer arithmetic " +
                                   "questions correctly to score points.")
+
+    def run(self):
+        """
+        Execute the main menu loop.
+
+        This method executes the main menu loop. It displays the game menu,
+        prompts the user for their choice, and executes the corresponding game
+        or quits the program based on the user's input.
+
+        Returns:
+        - None
+        """
+        # Instantiate a WordList object to access word-related functionalities.
+        word_list = WordList()
+
+        # Main game loop
+        while True:
+            # Display the game menu.
+            self.display_menu()
+
+            # Prompt the user for their choice.
+            choice = input(Fore.LIGHTYELLOW_EX + "Enter your choice: \n")
+
+            # Execute corresponding block of code based on the user's choice.
+            if choice == "1":
+                Hangman(word_list.get_random_word()).play()
+            elif choice == "2":
+                ScrambledWords(word_list.get_random_word()).play()
+            elif choice == "3":
+                ArithmeticGame().play()
+            elif choice == "4":
+                # Display the help screen.
+                self.display_help()
+            elif choice == "5":
+                # If user chooses to quit, break out of the loop.
+                print(Fore.LIGHTWHITE_EX + "Thank you for playing!")
+                break
+            else:
+                # If user enters an invalid choice, display an error message.
+                print(Fore.LIGHTRED_EX + "Invalid choice. Please try again.")
