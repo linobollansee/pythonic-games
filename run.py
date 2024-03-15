@@ -144,3 +144,27 @@ class Hangman:
 
         # Initialize an empty set to store guessed letters.
         self.guessed_letters = set()
+
+    def display_word(self):
+        """
+        Display the current state of the word with guessed letters revealed.
+
+        This method generates a string representing the current state of the
+        secret word with guessed letters revealed and unguessed letters
+        represented as underscores.
+
+        Returns:
+        - displayed_word: A string representing the state of the secret word.
+        """
+        # Initialize an empty string to store the displayed word.
+        displayed_word = ''
+
+        # Iterate through each letter in the secret word.
+        for letter in self.secret_word:
+            # If the letter has been guessed, append it to the displayed word.
+            if letter in self.guessed_letters:
+                displayed_word += letter
+            # If the letter has not been guessed, append an underscore.
+            else:
+                displayed_word += '_'
+        return displayed_word
