@@ -61,3 +61,20 @@ class GameMenu:
         print(Fore.LIGHTCYAN_EX + "3. Arithmetic Game")
         print(Fore.LIGHTCYAN_EX + "4. Help")
         print(Fore.LIGHTCYAN_EX + "5. Quit")
+
+    def display_help(self):
+        """
+        Display the help screen with instructions on how to play each game.
+
+        This method prints instructions on how to play each game.
+
+        Returns:
+        - None
+        """
+        print(Fore.LIGHTWHITE_EX + "Help Screen")
+        print(Fore.LIGHTCYAN_EX + "Hangman: Guess the letters in the secret " +
+                                  "word before you run out of guesses.")
+        print(Fore.LIGHTCYAN_EX + "Scrambled Words: Unscramble the letters " +
+                                  "to form the correct word.")
+        print(Fore.LIGHTCYAN_EX + "Arithmetic Game: Answer arithmetic " +
+                                  "questions correctly to score points.")
