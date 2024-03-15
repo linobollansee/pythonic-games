@@ -168,3 +168,25 @@ class Hangman:
             else:
                 displayed_word += '_'
         return displayed_word
+
+    def guess_letter(self):
+        """
+        Prompt the player to guess a letter and validate the input.
+
+        This method prompts the player to guess a letter. It validates the
+        input to ensure that it is a single letter and has not been guessed
+        before.
+
+        Returns:
+        - guess: The guessed letter.
+        """
+        # Loop until a valid guess is received.
+        while True:
+            guess = input(Fore.LIGHTYELLOW_EX + "Guess a letter: \n").lower()
+            # Validate the input.
+            if len(guess) != 1 or not guess.isalpha():
+                print(Fore.LIGHTRED_EX + "Please enter a single letter.")
+            elif guess in self.guessed_letters:
+                print(Fore.LIGHTRED_EX + "You already guessed that letter.")
+            else:
+                return guess
