@@ -118,3 +118,29 @@ class GameMenu:
             else:
                 # If user enters an invalid choice, display an error message.
                 print(Fore.LIGHTRED_EX + "Invalid choice. Please try again.")
+
+
+class Hangman:
+
+    def __init__(self, word):
+        """
+        Initialize Hangman game with a secret word and initial guesses.
+
+        This method initializes the Hangman game with a secret word, sets the
+        initial number of guesses to 6, and initializes an empty set to store
+        guessed letters.
+
+        Parameters:
+        - word: The secret word to be guessed.
+
+        Returns:
+        - None
+        """
+        # Store the secret word to be guessed.
+        self.secret_word = word
+
+        # Set the initial number of guesses.
+        self.guesses_left = 6
+
+        # Initialize an empty set to store guessed letters.
+        self.guessed_letters = set()
