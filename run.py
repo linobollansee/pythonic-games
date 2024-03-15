@@ -33,4 +33,31 @@ class WordList:
         """
         # Use random.choice() function to select a random word from the list.
         return random.choice(WordList.words)
-        
+
+
+class GameMenu:
+    def display_menu(self):
+        """
+        Display the main menu options for the game.
+
+        This method prints the main menu options for the game, including:
+        1. Hangman
+        2. Scrambled Words
+        3. Arithmetic Game
+        4. Help
+        5. Quit
+
+        Returns:
+        - None
+        """
+        # Print the game title.
+        print(Fore.LIGHTWHITE_EX +
+              " ╔═╗┬ ┬┌┬┐┬ ┬┌─┐┌┐┌┬┌─┐  ╔═╗┌─┐┌┬┐┌─┐┌─┐\n" +
+              " ╠═╝└┬┘ │ ├─┤│ ││││││    ║ ╦├─┤│││├┤ └─┐\n" +
+              " ╩   ┴  ┴ ┴ ┴└─┘┘└┘┴└─┘  ╚═╝┴ ┴┴ ┴└─┘└─┘")
+        # Print the menu options.
+        print(Fore.LIGHTCYAN_EX + "1. Hangman")
+        print(Fore.LIGHTCYAN_EX + "2. Scrambled Words")
+        print(Fore.LIGHTCYAN_EX + "3. Arithmetic Game")
+        print(Fore.LIGHTCYAN_EX + "4. Help")
+        print(Fore.LIGHTCYAN_EX + "5. Quit")
