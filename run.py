@@ -271,3 +271,42 @@ class ScrambledWords:
         while scrambled_word == self.word:
             scrambled_word = ''.join(random.sample(self.word, len(self.word)))
         return scrambled_word
+
+    def play(self):
+        """
+        Execute the Scrambled Words game.
+
+        This method initiates the Scrambled Words game. It generates a
+        scrambled version of the word and prompts the user to unscramble it.
+        It checks if the user's guess matches the original word and displays
+        the result accordingly.
+
+        Returns:
+        - None
+        """
+        # Display a welcome message for the Scrambled Words game.
+        print(Fore.LIGHTWHITE_EX + "Let's play Scrambled Words!")
+
+        # Generate a scrambled version of the word.
+        scrambled_word = self.scramble_word()
+
+        # Display the scrambled word to the user.
+        print(Fore.LIGHTCYAN_EX + "Unscramble the word: " + scrambled_word)
+
+        while True:
+            # Prompt the user to guess the unscrambled word.
+            guess = input(Fore.LIGHTYELLOW_EX + "Your guess: \n")
+
+            # Check if the guess contains any number
+            if any(char.isdigit() for char in guess):
+                print(Fore.LIGHTRED_EX + "Please enter a word without any " +
+                                         "numbers.")
+                continue
+            else:
+                # Check if the user's guess matches the original word.
+                if guess.lower() == self.word.lower():
+                    print(Fore.LIGHTWHITE_EX + "Correct! Well done.")
+                else:
+                    print(Fore.LIGHTRED_EX + "Incorrect. The word was: " +
+                                             self.word)
+                break
