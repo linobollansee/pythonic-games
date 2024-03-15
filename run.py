@@ -234,3 +234,22 @@ class Hangman:
             print(Fore.LIGHTRED_EX +
                   "Sorry, you're out of guesses. The word was: " +
                   self.secret_word)
+
+
+class ScrambledWords:
+
+    def __init__(self, word):
+        """
+        Initialize Scrambled Words game with a word to be unscrambled.
+
+        This method initializes the ScrambledWords game with a word to be
+        unscrambled.
+
+        Parameters:
+        - word: The word to be unscrambled.
+
+        Returns:
+        - None
+        """
+        # Store the word to be unscrambled.
+        self.word = word
