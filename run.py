@@ -253,3 +253,21 @@ class ScrambledWords:
         """
         # Store the word to be unscrambled.
         self.word = word
+
+    def scramble_word(self):
+        """
+        Scramble the given word to be unscrambled by the player.
+
+        This method scrambles the given word using random permutation until the
+        scrambled word is different from the original word.
+
+        Returns:
+        - scrambled_word: The scrambled version of the word.
+        """
+        # Initialize scrambled_word with the original word.
+        scrambled_word = self.word
+
+        # Scrambling until scrambled word is different from original word.
+        while scrambled_word == self.word:
+            scrambled_word = ''.join(random.sample(self.word, len(self.word)))
+        return scrambled_word
