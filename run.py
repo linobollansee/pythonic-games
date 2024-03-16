@@ -310,3 +310,41 @@ class ScrambledWords:
                     print(Fore.LIGHTRED_EX + "Incorrect. The word was: " +
                                              self.word)
                 break
+
+
+class ArithmeticGame:
+    def generate_question(self):
+        """
+        Generate a random arithmetic question and its corresponding answer.
+
+        This method generates two random integers between 1 and 30 as operands
+        and a random arithmetic operator (+, -, *, /). Based on the operator,
+        it calculates the answer and constructs the question string.
+
+        Returns:
+        - question: A string representing the arithmetic question.
+        - answer: The correct answer to the generated question.
+        """
+        # Generate two random integers between 1 and 30 as operands.
+        num1 = random.randint(1, 30)
+        num2 = random.randint(1, 30)
+
+        # Choose a random arithmetic operator from +, -, *, /
+        operator = random.choice(['+', '-', '*', '/'])
+
+        # Calculate the correct answer based on the operator.
+        if operator == '+':
+            answer = num1 + num2
+        elif operator == '-':
+            answer = num1 - num2
+        elif operator == '*':
+            answer = num1 * num2
+        else:
+            # For division, ensure the answer is a whole number
+            num1 = num1 * num2  # Adjust num1 to ensure it's divisible by num2
+            answer = num1 // num2
+
+        # Construct the question string.
+        question = ("What is " + str(num1) + " " + operator + " " + str(num2) +
+                    "? ")
+        return question, answer
