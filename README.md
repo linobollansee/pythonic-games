@@ -4,7 +4,18 @@ Pythonic Games is a terminal-based Python games application designed to operate 
 
 ![Pythonic Games](/readme/media/pythonic-games.png)
 
-## How to play
+## How to play and use Pythonic Games
+
+In the Pythonic Games application, a clear list of games is presented, players need only input the number associated with their desired game to initiate play.
+
+When players select Hangman from the menu in Pythonic Games, they're prompted to input letters to uncover the hidden word, with the requirement to input one letter at a time.
+
+When players opt for the Scrambled Words game, they're presented with a scrambled word that they must unscramble to reveal the correct word, with
+players only having one opportunity to guess the correct word.
+
+In the Arithmetic Game, players are presented with five mathematical calculations to solve after selecting the game from the menu. The objective i to solve each equation by inputting positive or negative numbers.
+
+Playing a selected game to completion is required in order to return to the main menu.
 
 ## Features
 
