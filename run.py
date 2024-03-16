@@ -396,3 +396,11 @@ class ArithmeticGame:
         # Display the user's final score.
         print(Fore.LIGHTWHITE_EX + "Your score is: " + str(score) +
               "/" + str(num_questions))
+
+
+# Check if the script is being run as the main program
+if __name__ == "__main__":
+    # Instantiate a GameMenu object
+    menu = GameMenu()
+    # Execute the run method of the GameMenu object
+    menu.run()
