@@ -21,6 +21,8 @@ Playing a selected game to completion is required in order to return to the main
 
 The Pythonic Games application proudly presents its ASCII-art logo, adding a unique and visually captivating element to the user experience.
 
+![Pythonic Games ASCII logo](/readme/media/pythonic-games-ascii-logo.png)
+
 Pythonic Games offers a menu accessible by numeric selections, presenting the following options: Hangman, Scrambled Words, Arithmetic Game, Help, and Quit for users to choose from.
 
 The Pythonic Games application displays its text using a variety of light Colorama colors (light white, light cyan, light yellow, light red) to improve the contrast with the Python mock terminal and allow users to distinguish easily between program text displays and inputs.
