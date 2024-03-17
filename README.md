@@ -64,6 +64,10 @@ Inputting numbers as a word guess will however not be accepted.
 
 ### Validator Testing
 
+- PEP8
+  - The CI Python Linter was used for validating adherence to PEP8 guidelines: [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
+
+
 ## Deployment
 
 This project was deployed using the Code Institute's mock terminal for Render.
