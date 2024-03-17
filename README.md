@@ -98,3 +98,9 @@ This project was deployed using the Code Institute's mock terminal for Render.
 ## Credits
 
 ## Other General Project Advice
+
+- Diligent and thorough testing, characterized by unwavering attention to detail, is fundamental to mastering Python and progressing in its application development journey. This persistent quest to detect any signs of errors, anomalies, or areas for improvement is essential for refining one's skills and expertise with the language. Such rigorous testing serves as a cornerstone, providing a solid foundation upon which to build proficiency and tackle increasingly complex challenges in Python development.
+
+- Collaborating and supporting fellow colleagues in their endeavors frequently fosters a culture of reciprocity, where they are inclined to reciprocate by offering valuable insights and information. This exchange of knowledge not only enriches both parties involved but also cultivates a sense of camaraderie within the workplace. The time saved through their assistance can be undeniably significant, contributing to increased efficiency and productivity in various tasks and projects.
+
+- Securing deadline extensions due to technical outages is not only feasible but also highly advisable with appropriate justifications. In many cases, these extensions serve as crucial stress relievers, especially in light of the pervasive uncertainty surrounding the restoration of cloud platform services.
