@@ -81,6 +81,7 @@ Unfortunately, efforts to address these quirks were unsuccessful, as executing t
 - PEP8
   - The CI Python Linter was used for validating adherence to PEP8 guidelines: [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
+![Pythonic Games CI Python Linter](/readme/media/pythonic-games-ci-python-linter.png)
 
 ## Deployment
 
