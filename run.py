@@ -382,7 +382,7 @@ class ArithmeticGame:
                 except ValueError:
                     # If user enters a non-integer input display error message.
                     print(Fore.LIGHTRED_EX + "Invalid input. " +
-                                             "Please enter a number.")
+                                             "Please enter a whole number.")
 
             # Check if the user's answer matches the correct answer.
             if user_answer == answer:
