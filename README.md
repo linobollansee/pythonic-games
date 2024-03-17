@@ -54,6 +54,12 @@ Inputting numbers as a word guess will however not be accepted.
 
 ### Future Features
 
+Additional games could be incorporated into the Pythonic Games menu to offer users a wider variety of gaming options.
+
+A more sophisticated points system could be integrated into Pythonic Games to measure precisely how well a player is doing.
+
+Further development of the Pythonic Games application could involve integrating more advanced libraries with entirely new features.
+
 ## Data Model
 
 ## Testing
