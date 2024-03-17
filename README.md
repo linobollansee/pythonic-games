@@ -31,6 +31,10 @@ Both Hangman and Scrambled Words in Pythonic Games utilize a word list comprised
 
 ![Pythonic Games Jargon](/readme/media/pythonic-games-jargon.png)
 
+The help screen within Python Games provides explanations for the various games available.
+
+![Pythonic Games Help Screen](/readme/media/pythonic-games-help-screen.png)
+
 ### Existing Features
 
 ### Future Features
