@@ -68,6 +68,14 @@ Further development of the Pythonic Games application could involve integrating 
 
 ### Remaining bugs
 
+Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
+
+![Pythonic Games unexpected characters](/readme/media/pythonic-games-unexpected-characters.png)
+
+Unfortunately, efforts to address these quirks were unsuccessful, as executing the same Python code outside of the simulated terminal failed to reproduce these anomalies. Moreover, adhering to instructions not to modify other files posed additional constraints.
+
+![Pythonic Games do not edit files](/readme/media/pythonic-games-do-not-edit-files.png)
+
 ### Validator Testing
 
 - PEP8
@@ -96,6 +104,8 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - Click on Create Web Service
 
 ## Credits
+
+
 
 ## Other General Project Advice
 
