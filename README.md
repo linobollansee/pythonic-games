@@ -37,6 +37,21 @@ The help screen within Python Games provides explanations for the various games 
 
 ![Pythonic Games Help Screen](/readme/media/pythonic-games-help-screen.png)
 
+Pythonic Games integrates input validation to deter the submission of erroneous input.
+
+The robust menu programming code within Pythonic Games is designed to efficiently identify and handle invalid user input, ensuring smooth and error-free interaction with the program.
+
+![Pythonic Games Menu Input Validation](/readme/media/pythonic-games-menu-input-validation.png)
+
+Within Python Games, the hangman game is equipped to detect and handle invalid input, as well as repeated input, ensuring a seamless and error-free gaming experience.
+
+![Pythonic Games Hangman Input Validation](/readme/media/pythonic-games-hangman-input-validation.png)
+
+The Scrambled Words game, renowned for its extreme difficulty, will on purpose unveil the word even when submitting a blank entry, so it can serve as a quick surrender mechanism.
+Inputting numbers as a word guess will however not be accepted.
+
+![Pythonic Games Scrambled Words Blank Input](/readme/media/pythonic-games-scrambled-words-blank-input.png)
+
 ### Future Features
 
 ## Data Model
