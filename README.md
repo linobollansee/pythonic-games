@@ -64,7 +64,27 @@ Further development of the Pythonic Games application could involve integrating 
 
 ## Testing
 
-### Bugs
+### Bugs and Issues
+
+**EXTREMELY IMPORTANT INFORMATION: MUST READ**
+
+This section will initially address the notable outages encountered by Codeanywhere and Heroku, the default platforms designated for this project. These outages resulted in the unavailability of these platforms to new users throughout the project's duration, contributing significantly to the project's complications. As this issue holds central importance in understanding the challenges faced by the project, it is essential to prioritize its discussion from the outset.
+
+Countless hours were poured into the relentless pursuit of getting Codeanywhere and Heroku up and running. Specifically focusing on Heroku, these endeavors encompassed a multitude of strategies: from clearing cookies, trying various web browsers, and switching between different computers, to creating multiple email accounts across different service providers, utilizing VPN services, traveling to remote areas to access alternative internet providers, enlisting individuals globally to attempt account creation on my behalf, exhaustively tapping into all available tutoring and mentoring resources, personally reaching out to Heroku support, and even attempting to create accounts for uninterrupted stretches of 24 hours without sleep, among numerous other approaches. In essence, these efforts transcend comprehension.
+
+It became increasingly clear that progress had ground to a halt and this despite all attempts. I received no response from Heroku support to any of my emails. I reached out to all accessible employees at the Code Institute for assistance. Regrettably, they expressed skepticism regarding the severity of the issue, citing that most students with pre-existing Heroku accounts had not encountered significant problems. Nevertheless, they diligently guided me through repeating all the troubleshooting steps, to which I readily complied.
+
+In an effort to demonstrate the severity of the situation, I urged them to attempt the process themselves. Upon verifying that creating Heroku accounts was indeed unfeasible worldwide, they conferred with their team and granted me special authorization to use alternative platforms. They recommended Gitpod.io and Render to which I agreed. Subsequently, they advised me to notify the Code Institute via email of my decision to deploy on Render.
+
+Faced with the challenge of mastering cloud platforms not included in my Learning Management System (LMS) due to the malfunctioning of Codeanywhere and Heroku, I realized this could significantly impede my learning journey. Moreover, it posed a risk of making the project unachievable, especially if intricate technical demands were involved. Anticipating potential obstacles, I approached The Code Institute to request any available documentation, recognizing the importance of being well-prepared for the hurdles that lay ahead.
+
+Given that the assistance offered was not specifically designed for ordinary student use as Render usage is unusual, I found myself needing to extract as much pertinent information as possible from the Code Institute's internal usage documents. Of primary significance was obtaining the custom commands employed in Render, as outlined below.
+
+![Pythonic Games Render commands](/readme/media/pythonic-games-render-commands.png)
+
+Given my previous difficult experiences with cloud platforms, I was extremely careful to limit the amounts of times I would "build" a project in Render, as to not spend build-hours and find myself locked-out of a cloud platform, so I decided I would often leave manual deployment set in place. 
+
+![Pythonic Games Render auto deploy no](/readme/media/pythonic-games-render-auto-deploy-no.png)
 
 ### Remaining bugs
 
@@ -105,8 +125,6 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - Click on Create Web Service
 
 ## Credits
-
-
 
 ## Other General Project Advice
 
