@@ -66,6 +66,25 @@ Inputting numbers as a word guess will however not be accepted.
 
 ## Deployment
 
+This project was deployed using the Code Institute's mock terminal for Render.
+
+- Steps for deployment:
+  - Fork the Python Essentials Template of the Code Institute on Github:
+  [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+  - Create a new Web Service in Render
+  - Build and deploy from a Git repository in Render
+  - Connect the project Github repository in Render
+  - Enter a unique name for the Web Service in Render
+  - Region: Frankfurt (EU Central)
+  - Branch: main
+  - Runtime: Python 3
+  - Build Command: pip install -r requirements.txt && npm install
+  - Start Command: node index.js
+  - Instance type: Free
+  - Environmental Variables: PORT, 8000
+  - Auto-Deploy: Yes
+  - Click on Create Web Service
+
 ## Credits
 
 ## Other General Project Advice
