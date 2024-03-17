@@ -19,6 +19,8 @@ Playing a selected game to completion is required in order to return to the main
 
 ## Features
 
+### Existing Features
+
 The Pythonic Games application proudly presents its ASCII-art logo, adding a unique and visually captivating element to the user experience.
 
 ![Pythonic Games ASCII logo](/readme/media/pythonic-games-ascii-logo.png)
@@ -34,8 +36,6 @@ Both Hangman and Scrambled Words in Pythonic Games utilize a word list comprised
 The help screen within Python Games provides explanations for the various games available.
 
 ![Pythonic Games Help Screen](/readme/media/pythonic-games-help-screen.png)
-
-### Existing Features
 
 ### Future Features
 
