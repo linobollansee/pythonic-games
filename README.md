@@ -126,6 +126,40 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
 ## Credits
 
+- The Code Institute: [https://learn.codeinstitute.net/](https://learn.codeinstitute.net/)
+
+  - The Learning Management System (LMS): Python Essentials
+
+  - James Stone: E-mailed template advice when at least two possible options existed.
+
+  - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template) 
+
+  - Tutoring: Internal documents: Deployment to Render
+
+  - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson, flow diagram lesson.
+
+  - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
+
+- Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
+
+  - Suggested the following Text to ASCII Art Generator (TAAG) which was set to Calvin S to create the ASCII Pythonic Games logo:
+[https://patorjk.com/software/taag/#p=display&f=Calvin%20S&t=Pythonic%20Games](https://patorjk.com/software/taag/#p=display&f=Calvin%20S&t=Pythonic%20Games)
+
+  - Technical discussions about terminal command: `pip3 freeze > requirements.txt`
+
+  - Discussed his GitHub projects, becoming an invaluable source of information.
+
+- ChatGPT 3.5: [https://chat.openai.com/](https://chat.openai.com/)
+  
+  - Support for Python project:
+    - Partial populating of text strings for the print() function.
+    - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
+    - Producing concise program examples to aid in exploring programming solutions. These examples were not meant for direct implementation, as they often include inaccuracies stemming from the generative AI process.
+    - Partial verification of the project code's accuracy, not very succcesful but it inadvertently provided useful information as a side effect.
+     - Partial support for README.md: Improving grammar and finding synonyms.
+
+- Notepad ++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
+
 ## Other General Project Advice
 
 - Diligent and thorough testing, characterized by unwavering attention to detail, is fundamental to mastering Python and progressing in its application development journey. This persistent quest to detect any signs of errors, anomalies, or areas for improvement is essential for refining one's skills and expertise with the language. Such rigorous testing serves as a cornerstone, providing a solid foundation upon which to build proficiency and tackle increasingly complex challenges in Python development.
