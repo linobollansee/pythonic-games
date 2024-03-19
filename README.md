@@ -60,7 +60,7 @@ A more sophisticated points system could be integrated into Pythonic Games to me
 
 Further development of the Pythonic Games application could involve integrating more advanced libraries with entirely new features.
 
-## Data Model
+## Data Model and Programming
 
 Pythonic Games utilizes object-oriented programming and defines five classes and thirteen functions:
 
@@ -82,6 +82,29 @@ Pythonic Games utilizes object-oriented programming and defines five classes and
 - `class ArithmeticGame`
   - `def generate_question(self):`
   - `def play(self)`
+
+Pythonic Games has a list of words that is used by both Hangman and Scrambled Words
+
+-  `words = [
+    'programming', 'development', 'algorithm', 'javascript', 'python',
+    'software', 'function', 'variable', 'iteration', 'recursion',
+    'database', 'framework', 'interface', 'inheritance', 'polymorphism',
+    'abstraction', 'encapsulation', 'optimization', 'debugging', 'testing'
+]`
+
+Pythonic Games has four input prompts, one for the game menu and one for each of the three games.
+
+- GameMenu
+  - `choice = input(Fore.LIGHTYELLOW_EX + "Enter your choice: \n"`
+
+- Hangman
+  - `guess = input(Fore.LIGHTYELLOW_EX + "Guess a letter: \n").lower()`
+
+- ScrambledWords
+  - `guess = input(Fore.LIGHTYELLOW_EX + "Your guess: \n")`
+
+- ArithmeticGame
+  - `user_answer = input(Fore.LIGHTCYAN_EX + question + "\n")`
 
 The following flowchart provides an overview of the program's succinct functionality:
 
