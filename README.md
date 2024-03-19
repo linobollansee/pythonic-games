@@ -15,7 +15,7 @@ When players select Hangman from the menu in Pythonic Games, they're prompted to
 When players opt for the Scrambled Words game, they're presented with a scrambled word that they must unscramble to reveal the correct word, with
 players only having one opportunity to guess the correct word.
 
-In the Arithmetic Game, players are presented with five mathematical calculations to solve after selecting the game from the menu. The objective i to solve each equation by inputting positive or negative numbers.
+In the Arithmetic Game, players are presented with five mathematical calculations to solve after selecting the game from the menu. The objective is to solve each equation by inputting positive or negative numbers.
 
 Playing a selected game to completion is required in order to return to the main menu.
 
