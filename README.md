@@ -1,18 +1,18 @@
 # Table of Contents
 
 - [Pythonic Games](#pythonic-games)
-- [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
-- [Features](#features)
-- [Existing Features](#existing-features)
-- [Future Features](#future-features)
-- [Data Model and Programming](#data-model-and-programming)
-- [Testing](#testing)
-- [Bugs and Issues](#bugs-and-issues)
-- [Remaining bugs](#remaining-bugs)
-- [Validator Testing](#validator-testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-- [Other General Project Advice](#other-general-project-advice)
+  - [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+  - [Data Model and Programming](#data-model-and-programming)
+  - [Testing](#testing)
+    - [Bugs and Issues](#bugs-and-issues)
+    - [Remaining bugs](#remaining-bugs)
+    - [Validator Testing](#validator-testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Other General Project Advice](#other-general-project-advice)
 
 # Pythonic Games
 
