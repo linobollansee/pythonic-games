@@ -161,7 +161,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
   - Tutoring: Internal documents: Deployment to Render
 
-  - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson, flow diagram lesson.
+  - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson for docstrings, flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
 
   - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
 
@@ -181,9 +181,23 @@ This project was deployed using the Code Institute's mock terminal for Render.
     - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
     - Producing concise program examples to aid in exploring programming solutions. These examples were not meant for direct implementation, as they often include inaccuracies stemming from the generative AI process.
     - Partial verification of the project code's accuracy, not very succcesful but it inadvertently provided useful information as a side effect.
-     - Partial support for README.md: Improving grammar and finding synonyms.
+    - Partial support for README.md: Improving grammar and finding synonyms.
 
 - Notepad ++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
+
+  - Code editor with higher execution speed and smaller program size
+
+- Python: [https://www.python.org/](https://www.python.org/)
+
+  - The official home of the Python Programming Language
+
+- W3 Schools: [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
+
+  - Python Tutorial
+
+- YouTube: [https://www.youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp)
+
+  - Harvard CS50’s Introduction to Programming with Python – Full University Course: [https://youtu.be/nLRL_NcnK-4](https://youtu.be/nLRL_NcnK-4)
 
 ## Other General Project Advice
 
