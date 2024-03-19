@@ -54,6 +54,10 @@ Inputting numbers as a word guess will however not be accepted.
 
 ![Pythonic Games Scrambled Words Blank Input](/readme/media/pythonic-games-scrambled-words-blank-input.png)
 
+Inputting capital letters in the Scrambled Words game, as long as the word is correct, is accepted.
+
+![Pythonic Games Scrambled Words Uppercase Input](/readme/media/pythonic-games-scrambled-words-uppercase-input.png)
+
 ### Future Features
 
 Additional games could be incorporated into the Pythonic Games menu to offer users a wider variety of gaming options.
