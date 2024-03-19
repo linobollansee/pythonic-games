@@ -153,18 +153,18 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
 - The Code Institute: [https://learn.codeinstitute.net/](https://learn.codeinstitute.net/)
 
-  - The Learning Management System (LMS): Python Essentials
+  - The Learning Management System (LMS):
+    - Python Essentials
+    - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
+    - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+    - README.md template from Portfolio Project Scope page.
 
   - James Stone: E-mailed template advice when at least two possible options existed.
-
-  - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template) 
 
   - Tutoring: Internal documents: Deployment to Render
 
   - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson for docstrings, flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
-
-  - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
-
+  
 - Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
 
   - Suggested the following Text to ASCII Art Generator (TAAG) which was set to Calvin S to create the ASCII Pythonic Games logo:
@@ -185,19 +185,23 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
 - Notepad ++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
-  - Code editor with higher execution speed and smaller program size
+  - Code editor with higher execution speed and smaller program size.
 
 - Python: [https://www.python.org/](https://www.python.org/)
 
-  - The official home of the Python Programming Language
+  - The official home of the Python Programming Language.
 
 - W3 Schools: [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 
-  - Python Tutorial
+  - Python Tutorial.
 
 - YouTube: [https://www.youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp)
 
   - Harvard CS50’s Introduction to Programming with Python – Full University Course: [https://youtu.be/nLRL_NcnK-4](https://youtu.be/nLRL_NcnK-4)
+
+- GitHub: [https://github.com/](https://github.com/)
+
+  - Source code from over 100 million developers to learn from.
 
 ## Other General Project Advice
 
