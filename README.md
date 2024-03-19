@@ -62,6 +62,31 @@ Further development of the Pythonic Games application could involve integrating 
 
 ## Data Model
 
+Pythonic Games utilizes object-oriented programming and defines five classes and thirteen functions:
+
+- `class WordList:`
+  - `def get_random_word()`
+- `class GameMenu`
+  - `def display_menu(self)`
+  - `def display_help(self)`
+  - `def run(self):`
+- `class Hangman`
+  - `def __init__(self, word):`
+  - `def display_word(self):`
+  - `def guess_letter(self):`
+  - `def play(self):`
+- `class ScrambledWords`
+  - `def __init__(self, word):`
+  - `def scramble_word(self):`
+  - `def play(self):`
+- `class ArithmeticGame`
+  - `def generate_question(self):`
+  - `def play(self)`
+
+The following flowchart provides an overview of the program's succinct functionality:
+
+![Pythonic Games Flowchart](/readme/media/pythonic-games-flowchart.png)
+
 ## Testing
 
 ### Bugs and Issues
