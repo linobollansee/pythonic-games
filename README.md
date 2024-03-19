@@ -1,3 +1,19 @@
+# Table of Contents
+
+- [Pythonic Games](#pythonic-games)
+- [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
+- [Features](#features)
+- [Existing Features](#existing-features)
+- [Future Features](#future-features)
+- [Data Model and Programming](#data-model-and-programming)
+- [Testing](#testing)
+- [Bugs and Issues](#bugs-and-issues)
+- [Remaining bugs](#remaining-bugs)
+- [Validator Testing](#validator-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Other General Project Advice](#other-general-project-advice)
+
 # Pythonic Games
 
 Pythonic Games is a terminal-based Python games application designed to operate within the Code Institute mock terminal environment on Render. Pythonic Games extends a warm invitation to players through its menu system, where an assortment of games awaits exploration. The menu entices users with a plethora of options. Navigating through the menu is effortless, thanks to its intuitive design and user-friendly layout, allowing players to go from one game to another with just a few keystrokes. This accessibility underscores the mastery of Python programming, as Pythonic Games integrates the elegance and efficiency of the language, ensuring that gaming enjoyment is within reach for players of all ages and skill levels. Pythonic Games endeavors to enrich the lives of its target audience by offering a platform that fosters creativity, problem-solving skills, and endless hours of enjoyment in the realm of gaming.
