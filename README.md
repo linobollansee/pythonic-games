@@ -199,6 +199,8 @@ Unfortunately, efforts to address these quirks were unsuccessful, as executing t
 - PEP8
   - The CI Python Linter was used for validating adherence to PEP8 guidelines: [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
+Remark: Unfortunately, GitHub doesn't allow adding a newline at the end of the Python file.
+
 ![Pythonic Games CI Python Linter](/readme/media/pythonic-games-ci-python-linter.png)
 
 ## Deployment
