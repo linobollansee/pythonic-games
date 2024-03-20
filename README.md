@@ -82,6 +82,10 @@ A score count is kept by the Arithmetic Game out of 5 points.
 
 ![Pythonic Games Arithmetic Game Score](/readme/media/pythonic-games-arithmetic-game-score.png)
 
+Selecting the quit option on the game menu displays a `Thank you for playing` message
+
+![Pythonic Games Menu Quit](/readme/media/pythonic-games-menu-quit.png)
+
 ### Future Features
 
 Additional games could be incorporated into the Pythonic Games menu to offer users a wider variety of gaming options.
