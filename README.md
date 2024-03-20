@@ -168,6 +168,18 @@ Given my previous difficult experiences with cloud platforms, I was extremely ca
 
 ![Pythonic Games Render auto deploy no](/readme/media/pythonic-games-render-auto-deploy-no.png)
 
+Pythonic Games underwent local testing using the standard command prompt.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-command-prompt.png)
+
+The testing of Pythonic Games was also conducted locally using Windows PowerShell.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-powershell.png)
+
+And of course the mock terminal on the Render platform in a web browser.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-render.png)
+
 ### Remaining bugs
 
 Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
