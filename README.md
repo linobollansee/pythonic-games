@@ -74,6 +74,14 @@ Inputting capital letters in the Scrambled Words game, as long as the word is co
 
 ![Pythonic Games Scrambled Words Uppercase Input](/readme/media/pythonic-games-scrambled-words-uppercase-input.png)
 
+The Arithmetic Game supports number input and requires whole numbers to be used.
+
+![Pythonic Games Arithmetic Game Invalid Input](/readme/media/pythonic-games-arithmetic-game-invalid-input.png)
+
+A score count is kept by the Arithmetic Game out of 5 points.
+
+![Pythonic Games Arithmetic Game Score](/readme/media/pythonic-games-arithmetic-game-score.png)
+
 ### Future Features
 
 Additional games could be incorporated into the Pythonic Games menu to offer users a wider variety of gaming options.
