@@ -16,7 +16,11 @@
       - [Pythonic Games Quit Option](#pythonic-games-quit-option)
     - [Future Features](#future-features)
   - [Data Model and Programming](#data-model-and-programming)
-    - [Libraries](#libraries)
+    - [Pythonic Games Object-Oriented Programming](#pythonic-games-object-oriented-programming)
+    - [Pythonic Games Word List](#pythonic-games-word-list)
+    - [Pythonic Games Input Prompts](#pythonic-games-input-prompts)
+    - [Pythonic Games Flowchart](#pythonic-games-flowchart)
+    - [Pythonic Games Libraries](#pythonic-games-libraries)
   - [Testing](#testing)
     - [Bugs and Issues](#bugs-and-issues)
     - [Remaining bugs](#remaining-bugs)
@@ -127,6 +131,8 @@ Further development of the Pythonic Games application could involve integrating 
 
 ## Data Model and Programming
 
+### Pythonic Games Object-Oriented Programming
+
 Pythonic Games utilizes object-oriented programming and defines five classes and thirteen functions:
 
 - `class WordList:`
@@ -148,6 +154,8 @@ Pythonic Games utilizes object-oriented programming and defines five classes and
   - `def generate_question(self):`
   - `def play(self)`
 
+### Pythonic Games Word List
+
 Pythonic Games has a list of words that is used by both Hangman and Scrambled Words
 
 -  `words = [
@@ -156,6 +164,8 @@ Pythonic Games has a list of words that is used by both Hangman and Scrambled Wo
     'database', 'framework', 'interface', 'inheritance', 'polymorphism',
     'abstraction', 'encapsulation', 'optimization', 'debugging', 'testing'
 ]`
+
+### Pythonic Games Input Prompts
 
 Pythonic Games has four input prompts, one for the game menu and one for each of the three games.
 
@@ -171,11 +181,13 @@ Pythonic Games has four input prompts, one for the game menu and one for each of
 - ArithmeticGame
   - `user_answer = input(Fore.LIGHTCYAN_EX + question + "\n")`
 
+#### Pythonic Games Flowchart
+
 The following flowchart provides an overview of the program's succinct functionality:
 
 ![Pythonic Games Flowchart](/readme/media/pythonic-games-flowchart.png)
 
-### Libraries
+### Pythonic Games Libraries
 
 Pythonic-games import the built-in random module for generating random numbers.
 
