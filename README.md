@@ -13,7 +13,7 @@
       - [Pythonic Games Scrambled Words Input Validation](#pythonic-games-scrambled-words-input-validation)
       - [Pythonic Games Arithmetic Game Input Validation](#pythonic-games-arithmetic-game-input-validation)
       - [Pythonic Games Arithmetic Game Score](#pythonic-games-arithmetic-game-score)
-      - [Pythonic Games Arithmetic Quit Option](#pythonic-games-arithmetic-quit-option)
+      - [Pythonic Games Quit Option](#pythonic-games-arithmetic-quit-option)
     - [Future Features](#future-features)
   - [Data Model and Programming](#data-model-and-programming)
     - [Libraries](#libraries)
@@ -111,7 +111,7 @@ A score count is kept by the Arithmetic Game out of 5 points.
 
 ![Pythonic Games Arithmetic Game Score](/readme/media/pythonic-games-arithmetic-game-score.png)
 
-#### Pythonic Games Arithmetic Quit Option
+#### Pythonic Games Quit Option
 
 Selecting the quit option on the game menu displays a `Thank you for playing` message
 
