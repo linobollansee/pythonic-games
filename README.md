@@ -6,6 +6,7 @@
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
   - [Data Model and Programming](#data-model-and-programming)
+    - [Libraries](#libraries)
   - [Testing](#testing)
     - [Bugs and Issues](#bugs-and-issues)
     - [Remaining bugs](#remaining-bugs)
@@ -143,6 +144,18 @@ Pythonic Games has four input prompts, one for the game menu and one for each of
 The following flowchart provides an overview of the program's succinct functionality:
 
 ![Pythonic Games Flowchart](/readme/media/pythonic-games-flowchart.png)
+
+### Libraries
+
+Pythonic-games import the built-in random module for generating random numbers.
+
+-  `import random`
+
+Pythonic-Games imports the third-party colorama library in Python.
+
+- `from colorama import init, Fore`
+
+This package simplifies printing colored text in terminals.
 
 ## Testing
 
