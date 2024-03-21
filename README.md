@@ -13,7 +13,7 @@
       - [Pythonic Games Scrambled Words Input Validation](#pythonic-games-scrambled-words-input-validation)
       - [Pythonic Games Arithmetic Game Input Validation](#pythonic-games-arithmetic-game-input-validation)
       - [Pythonic Games Arithmetic Game Score](#pythonic-games-arithmetic-game-score)
-      - [Pythonic Games Quit Option](#pythonic-games-arithmetic-quit-option)
+      - [Pythonic Games Quit Option](#pythonic-games-quit-option)
     - [Future Features](#future-features)
   - [Data Model and Programming](#data-model-and-programming)
     - [Libraries](#libraries)
