@@ -4,6 +4,16 @@
   - [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
   - [Features](#features)
     - [Existing Features](#existing-features)
+      - [Pythonic Games ASCII-art logo](#pythonic-games-ascii-art-logo)
+      - [Pythonic Games Menu](#pythonic-games-menu)
+      - [Pythonic Games Word List](#pythonic-games-word-list)
+      - [Pythonic Games Help Screen](#pythonic-games-help-screen)
+      - [Pythonic Games Menu Input Validation](#pythonic-games-menu-input-validation)
+      - [Pythonic Games Hangman Input Validation](#pythonic-games-hangman-input-validation)
+      - [Pythonic Games Scrambled Words Input Validation](#pythonic-games-scrambled-words-input-validation)
+      - [Pythonic Games Arithmetic Game Input Validation](#pythonic-games-arithmetic-game-input-validation)
+      - [Pythonic Games Arithmetic Game Score](#pythonic-games-arithmetic-game-score)
+      - [Pythonic Games Arithmetic Quit Option](#pythonic-games-arithmetic-quit-option)
     - [Future Features](#future-features)
   - [Data Model and Programming](#data-model-and-programming)
     - [Libraries](#libraries)
@@ -40,21 +50,31 @@ Playing a selected game to completion is required in order to return to the main
 
 ### Existing Features
 
+#### Pythonic Games ASCII-art logo
+
 The Pythonic Games application proudly presents its ASCII-art logo, adding a unique and visually captivating element to the user experience.
 
 ![Pythonic Games ASCII logo](/readme/media/pythonic-games-ascii-logo.png)
+
+#### Pythonic Games Menu
 
 Pythonic Games offers a menu accessible by numeric selections, presenting the following options: Hangman, Scrambled Words, Arithmetic Game, Help, and Quit for users to choose from.
 
 The Pythonic Games application displays its text using a variety of light Colorama colors (light white, light cyan, light yellow, light red) to improve the contrast with the Python mock terminal and allow users to distinguish easily between program text displays and inputs.
 
+#### Pythonic Games Word List
+
 Both Hangman and Scrambled Words in Pythonic Games utilize a word list comprised of programming-related jargon intentionally chosen to educate users in programming concepts. This deliberate design choice serves as a valuable learning tool, familiarizing players with terminology commonly encountered in the realm of programming.
 
 ![Pythonic Games Jargon](/readme/media/pythonic-games-jargon.png)
 
+#### Pythonic Games Help Screen
+
 The help screen within Python Games provides explanations for the various games available.
 
 ![Pythonic Games Help Screen](/readme/media/pythonic-games-help-screen.png)
+
+#### Pythonic Games Menu Input Validation
 
 Pythonic Games integrates input validation to deter the submission of erroneous input.
 
@@ -64,7 +84,11 @@ The robust menu programming code within Pythonic Games is designed to efficientl
 
 Within Python Games, the hangman game is equipped to detect and handle invalid input, as well as repeated input, ensuring a seamless and error-free gaming experience.
 
+#### Pythonic Games Hangman Input Validation
+
 ![Pythonic Games Hangman Input Validation](/readme/media/pythonic-games-hangman-input-validation.png)
+
+#### Pythonic Games Scrambled Words Input Validation
 
 The Scrambled Words game, renowned for its extreme difficulty, will on purpose unveil the word even when submitting a blank entry, so it can serve as a quick surrender mechanism.
 Inputting numbers as a word guess will however not be accepted.
@@ -75,13 +99,19 @@ Inputting capital letters in the Scrambled Words game, as long as the word is co
 
 ![Pythonic Games Scrambled Words Uppercase Input](/readme/media/pythonic-games-scrambled-words-uppercase-input.png)
 
+#### Pythonic Games Arithmetic Game Input Validation
+
 The Arithmetic Game supports number input and requires whole numbers to be used.
 
 ![Pythonic Games Arithmetic Game Invalid Input](/readme/media/pythonic-games-arithmetic-game-invalid-input.png)
 
+#### Pythonic Games Arithmetic Game Score
+
 A score count is kept by the Arithmetic Game out of 5 points.
 
 ![Pythonic Games Arithmetic Game Score](/readme/media/pythonic-games-arithmetic-game-score.png)
+
+#### Pythonic Games Arithmetic Quit Option
 
 Selecting the quit option on the game menu displays a `Thank you for playing` message
 
