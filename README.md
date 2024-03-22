@@ -250,6 +250,8 @@ ChatGPT was utilized to automatically verify attainment of project objectives
 
 ![Pythonic Games ChatGPT](/readme/media/pythonic-games-chatgpt.png)
 
+Remark: Pythonic Games has undergone thorough testing. However, due to numerous test image screenshots mirroring those already present in existing features, they will not be replicated here.
+
 ### Remaining bugs
 
 Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
