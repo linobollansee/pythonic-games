@@ -26,6 +26,9 @@
   - [Testing](#testing)
     - [Bugs and Issues](#bugs-and-issues)
       - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
+      - [Command-line interfaces](#command-line-interfaces)
+      - [Artificial intelligence verification](#artificial-intelligence-verification)
+      - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
   - [Deployment](#deployment)
@@ -234,6 +237,8 @@ Given my previous difficult experiences with cloud platforms, I was extremely ca
 
 ![Pythonic Games Render auto deploy no](/readme/media/pythonic-games-render-auto-deploy-no.png)
 
+### Command-line interfaces
+
 Pythonic Games underwent local testing using the standard command prompt.
 
 ![Pythonic Games Command Prompt](/readme/media/pythonic-games-command-prompt.png)
@@ -246,9 +251,13 @@ And of course the mock terminal on the Render platform in a web browser.
 
 ![Pythonic Games Command Prompt](/readme/media/pythonic-games-render.png)
 
+### Artificial intelligence verification
+
 ChatGPT was utilized to automatically verify attainment of project objectives
 
 ![Pythonic Games ChatGPT](/readme/media/pythonic-games-chatgpt.png)
+
+### Screenshot mirroring
 
 Remark: Pythonic Games has undergone thorough testing. However, due to numerous test image screenshots mirroring those already present in existing features, they will not be replicated here.
 
