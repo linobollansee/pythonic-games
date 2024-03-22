@@ -29,6 +29,7 @@
     - [Command-line interfaces](#command-line-interfaces)
     - [Artificial intelligence verification](#artificial-intelligence-verification)
     - [Browser compatibility](#browser-compatibility)
+    - [PEP8 errors](#pep8-errors)
     - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
@@ -260,6 +261,10 @@ ChatGPT was utilized to automatically verify attainment of project objectives
 ### Browser compatibility
 
 The deployed site of Pythonic Games was play-tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and no errors were detected.
+
+### PEP8 errors
+
+To correct PEP8 errors, Pythonic Games used string concatenation to seperate long print lines into multiple shorter lines.
 
 ### Screenshot mirroring
 
