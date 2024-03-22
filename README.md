@@ -28,6 +28,7 @@
       - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
     - [Command-line interfaces](#command-line-interfaces)
     - [Artificial intelligence verification](#artificial-intelligence-verification)
+    - [Browser compatibility](#browser-compatibility)
     - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
@@ -255,6 +256,10 @@ And of course the mock terminal on the Render platform in a web browser.
 ChatGPT was utilized to automatically verify attainment of project objectives
 
 ![Pythonic Games ChatGPT](/readme/media/pythonic-games-chatgpt.png)
+
+### Browser compatibility
+
+The deployed site of Pythonic Games was play-tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and no errors were detected.
 
 ### Screenshot mirroring
 
