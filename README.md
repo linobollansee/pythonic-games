@@ -1,6 +1,8 @@
 # Table of Contents
 
 - [Pythonic Games](#pythonic-games)
+  - [Deployed project](#deployed-project)
+  - [Proof-of-concept before deployment](#proof-of-concept-before-deployment)
   - [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
   - [Features](#features)
     - [Existing Features](#existing-features)
@@ -23,6 +25,7 @@
     - [Pythonic Games Libraries](#pythonic-games-libraries)
   - [Testing](#testing)
     - [Bugs and Issues](#bugs-and-issues)
+      - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
   - [Deployment](#deployment)
@@ -35,7 +38,13 @@ Pythonic Games is a terminal-based Python games application designed to operate 
 
 Live link available at this location: [https://pythonic-games.onrender.com/](https://pythonic-games.onrender.com/)
 
+## Deployed project
+
 ![Pythonic Games](/readme/media/pythonic-games.png)
+
+## Proof-of-concept before deployment
+
+![Pythonic Games](/readme/media/pythonic-games-proof-of-concept.png)
 
 ## How to play and use Pythonic Games
 
@@ -202,6 +211,8 @@ This package simplifies printing colored text in terminals.
 ## Testing
 
 ### Bugs and Issues
+
+#### Codeanywhere and Heroku outages
 
 **EXTREMELY IMPORTANT INFORMATION: MUST READ**
 
