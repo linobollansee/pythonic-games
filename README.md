@@ -362,6 +362,10 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
   - Cloud platform for applications
 
+- Balsamiq Wireframes: [https://balsamiq.com/](https://balsamiq.com/)
+
+  - Wireframing tool used for designing the proof-of-concept
+
 ## Other General Project Advice
 
 - Diligent and thorough testing, characterized by unwavering attention to detail, is fundamental to mastering Python and progressing in its application development journey. This persistent quest to detect any signs of errors, anomalies, or areas for improvement is essential for refining one's skills and expertise with the language. Such rigorous testing serves as a cornerstone, providing a solid foundation upon which to build proficiency and tackle increasingly complex challenges in Python development.
