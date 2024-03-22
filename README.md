@@ -26,9 +26,9 @@
   - [Testing](#testing)
     - [Bugs and Issues](#bugs-and-issues)
       - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
-      - [Command-line interfaces](#command-line-interfaces)
-      - [Artificial intelligence verification](#artificial-intelligence-verification)
-      - [Screenshot mirroring](#screenshot-mirroring)
+    - [Command-line interfaces](#command-line-interfaces)
+    - [Artificial intelligence verification](#artificial-intelligence-verification)
+    - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
   - [Deployment](#deployment)
@@ -106,8 +106,7 @@ Within Python Games, the hangman game is equipped to detect and handle invalid i
 
 #### Pythonic Games Scrambled Words Input Validation
 
-The Scrambled Words game, renowned for its extreme difficulty, will on purpose unveil the word even when submitting a blank entry, so it can serve as a quick surrender mechanism.
-Inputting numbers as a word guess will however not be accepted.
+The Scrambled Words game, renowned for its extreme difficulty, will on purpose unveil the word even when submitting a blank entry or wrong answer, so these can serve as a quick surrender mechanism for a user that has tried to complete the word and given up. Inputting numbers as a word guess will however not be accepted.
 
 ![Pythonic Games Scrambled Words Blank Input](/readme/media/pythonic-games-scrambled-words-blank-input.png)
 
