@@ -333,6 +333,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - The Learning Management System (LMS):
     - Python Essentials
     - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
+    ![Pythonic Games Portfolio Project 3 Scope Video](/readme/media/pythonic-games-portfolio-project-3-scope-video.png)
     - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
     - README.md template from Portfolio Project Scope page.
 
@@ -355,6 +356,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
   
   - Support for Python project:
     - Partial populating of text strings for the print() function.
+    ![Pythonic Games ChatGPT Hangman Messages Displayed To Player](/readme/media/pythonic-games-chatgpt-hangman-messages-displayed-to-player.png)
     - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
     - Producing concise program examples to aid in exploring programming solutions. Unfortunately, many of them are not suited for direct implementation, as they often include inaccuracies stemming from the generative AI process, but if the questions are kept simple
     the quality of the assistance can remain acceptable. See an interaction here:
