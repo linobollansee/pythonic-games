@@ -255,7 +255,9 @@ To correct PEP8 errors, Pythonic Games used string concatenation to seperate lon
 
 ### Cloud IDE errors
 
-At times, Gitpod.io experienced malfunctions. In response, GitHub Codespaces was utilized, offering superior performance compared to other cloud IDEs synchronized with GitHub. Additionally, it was discovered that pressing the comma key after selecting a repository provided a quicker route to Codespaces.
+At times, Gitpod.io experienced malfunctions. In response, GitHub Codespaces was utilized, offering superior performance compared to other cloud IDEs synchronized with GitHub. Additionally, it was discovered that pressing the comma key `,` after selecting a repository provided a quicker route to Codespaces.
+
+![Pythonic Games Codespaces](/readme/media/pythonic-games-codespaces.png)
 
 ### Command pip3 freeze
 
@@ -500,15 +502,15 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - Tutoring: Internal documents: Deployment to Render
 
   - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson for docstrings, flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
-  
-- Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
 
-  - Suggested the following Text to ASCII Art Generator (TAAG) which was set to Calvin S to create the ASCII Pythonic Games logo:
+  - Slack channel: Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
+
+    - Suggested the following Text to ASCII Art Generator (TAAG) which was set to Calvin S to create the ASCII Pythonic Games logo:
 [https://patorjk.com/software/taag/#p=display&f=Calvin%20S&t=Pythonic%20Games](https://patorjk.com/software/taag/#p=display&f=Calvin%20S&t=Pythonic%20Games)
 
-  - Technical discussions about terminal command: `pip3 freeze > requirements.txt`
+    - Technical discussions about terminal command: `pip3 freeze > requirements.txt`
 
-  - Discussed his GitHub projects, becoming an invaluable source of information.
+    - Discussed his GitHub projects, becoming an invaluable source of information.
 
 - ChatGPT 3.5: [https://chat.openai.com/](https://chat.openai.com/)
   
