@@ -251,6 +251,8 @@ Given my previous difficult experiences with cloud platforms, I was extremely ca
 
 To correct PEP8 errors, Pythonic Games used string concatenation to seperate long print lines into multiple shorter lines.
 
+![Pythonic Games String Concatenation](/readme/media/pythonic-games-string-concatenation.png)
+
 ### Cloud IDE errors
 
 At times, Gitpod.io experienced malfunctions. In response, GitHub Codespaces was utilized, offering superior performance compared to other cloud IDEs synchronized with GitHub. Additionally, it was discovered that pressing the comma key after selecting a repository provided a quicker route to Codespaces.
