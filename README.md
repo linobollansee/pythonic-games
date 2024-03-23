@@ -501,7 +501,11 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
   - Tutoring: Internal documents: Deployment to Render
 
-  - Mentoring: Dick Vlaanderen: Project input validation verification, idea for the application help menu, Pycharm software lesson for docstrings, flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
+  - Mentoring: Dick Vlaanderen:
+    - Project input validation verification
+    - Idea for the application help menu
+    - Pycharm software lesson for docstrings
+    - Flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
 
   - Slack channel: Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
 
