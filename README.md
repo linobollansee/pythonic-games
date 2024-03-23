@@ -8,6 +8,7 @@
     - [Existing Features](#existing-features)
       - [Pythonic Games ASCII-art logo](#pythonic-games-ascii-art-logo)
       - [Pythonic Games Menu](#pythonic-games-menu)
+      - [Pythonic Games Colors](#pythonic-games-colors)
       - [Pythonic Games Word List](#pythonic-games-word-list)
       - [Pythonic Games Menu Input Validation](#pythonic-games-menu-input-validation)
       - [Pythonic Games Hangman Input Validation](#pythonic-games-hangman-input-validation)
@@ -83,6 +84,10 @@ The Pythonic Games application proudly presents its ASCII-art logo, adding a uni
 #### Pythonic Games Menu
 
 Pythonic Games offers a menu accessible by numeric selections, presenting the following options: Hangman, Scrambled Words, Arithmetic Game, Help, and Quit for users to choose from.
+
+![Pythonic Games Menu](/readme/media/pythonic-games-menu.png)
+
+#### Pythonic Games Colors
 
 The Pythonic Games application displays its text using a variety of light Colorama colors (light white, light cyan, light yellow, light red) to improve the contrast with the Python mock terminal and allow users to distinguish easily between program text displays and inputs.
 
