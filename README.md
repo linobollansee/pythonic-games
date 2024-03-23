@@ -29,6 +29,7 @@
     - [PEP8 errors](#pep8-errors)
     - [Cloud IDE errors](#cloud-ide-errors)
     - [Command pip3 freeze](#command-pip3-freeze)
+    - [ChatGPT errors](#chatgpt-errors)
     - [Remaining bugs](#remaining-bugs)
   - [Testing](#testing)   
     - [Command-line interfaces](#command-line-interfaces)
@@ -403,6 +404,10 @@ websocket-client==1.7.0
 
 Remark: Only the colorama package is needed by this project.
 
+### ChatGPT Errors
+
+ChatGPT often has inaccuracies stemming from the generative AI process, but if the questions are kept simple the quality of the assistance can remain acceptable.
+
 ### Remaining bugs
 
 Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
@@ -490,7 +495,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
 - The Code Institute: [https://learn.codeinstitute.net/](https://learn.codeinstitute.net/)
 
   - The Learning Management System (LMS):
-  
+
     - Python Essentials
 
     - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
