@@ -77,7 +77,7 @@
   - [Deployment](#deployment)
 
   - [Credits](#credits)
-  
+
   - [Other General Project Advice](#other-general-project-advice)
 
 # Pythonic Games
@@ -145,9 +145,9 @@ The robust menu programming code within Pythonic Games is designed to efficientl
 
 ![Pythonic Games Menu Input Validation](/readme/media/pythonic-games-menu-input-validation.png)
 
-Within Python Games, the hangman game is equipped to detect and handle invalid input, as well as repeated input, ensuring a seamless and error-free gaming experience.
-
 #### Pythonic Games Hangman Input Validation
+
+Within Python Games, the hangman game is equipped to detect and handle invalid input, as well as repeated input, ensuring a seamless and error-free gaming experience.
 
 ![Pythonic Games Hangman Input Validation](/readme/media/pythonic-games-hangman-input-validation.png)
 
