@@ -1,3 +1,7 @@
+# ChatGPT 3.5 assistance was used for helping write comments, program strings,
+# and providing small program examples. Manual editing ensured program
+# correctness, enhanced menu, game, and color features, PEP8 compliance, etc.
+
 # Importing standard built-in random module for generating random numbers
 import random
 
