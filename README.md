@@ -1,44 +1,83 @@
 # Table of Contents
 
 - [Pythonic Games](#pythonic-games)
+
   - [Deployed project](#deployed-project)
+
   - [Proof-of-concept before deployment](#proof-of-concept-before-deployment)
+
   - [How to play and use Pythonic Games](#how-to-play-and-use-pythonic-games)
+
   - [Features](#features)
+
     - [Existing Features](#existing-features)
+
       - [Pythonic Games ASCII-art logo](#pythonic-games-ascii-art-logo)
+
       - [Pythonic Games Menu](#pythonic-games-menu)
+
       - [Pythonic Games Colors](#pythonic-games-colors)
+
       - [Pythonic Games Word List](#pythonic-games-word-list)
+
       - [Pythonic Games Menu Input Validation](#pythonic-games-menu-input-validation)
+
       - [Pythonic Games Hangman Input Validation](#pythonic-games-hangman-input-validation)
+
       - [Pythonic Games Scrambled Words Input Validation](#pythonic-games-scrambled-words-input-validation)
+
       - [Pythonic Games Arithmetic Game Input Validation](#pythonic-games-arithmetic-game-input-validation)
+
       - [Pythonic Games Arithmetic Game Score](#pythonic-games-arithmetic-game-score)
+
       - [Pythonic Games Help Screen](#pythonic-games-help-screen)
+
       - [Pythonic Games Quit Option](#pythonic-games-quit-option)
+
     - [Future Features](#future-features)
+
   - [Data Model and Programming](#data-model-and-programming)
+
     - [Pythonic Games Object-Oriented Programming](#pythonic-games-object-oriented-programming)
+
     - [Pythonic Games Word List](#pythonic-games-word-list)
+
     - [Pythonic Games Input Prompts](#pythonic-games-input-prompts)
+
     - [Pythonic Games Flowchart](#pythonic-games-flowchart)
+
     - [Pythonic Games Libraries](#pythonic-games-libraries)
+
   - [Bugs and Issues](#bugs-and-issues)
+
     - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
+
     - [PEP8 errors](#pep8-errors)
+
     - [Cloud IDE errors](#cloud-ide-errors)
+
     - [Command pip3 freeze](#command-pip3-freeze)
+
     - [ChatGPT errors](#chatgpt-errors)
+
     - [Remaining bugs](#remaining-bugs)
+
   - [Testing](#testing)   
+
     - [Command-line interfaces](#command-line-interfaces)
+
     - [Artificial intelligence verification](#artificial-intelligence-verification)
+
     - [Browser compatibility](#browser-compatibility)
+
     - [Screenshot mirroring](#screenshot-mirroring)
+
     - [Validator Testing](#validator-testing)
+
   - [Deployment](#deployment)
+
   - [Credits](#credits)
+  
   - [Other General Project Advice](#other-general-project-advice)
 
 # Pythonic Games
@@ -161,22 +200,39 @@ Further development of the Pythonic Games application could involve integrating 
 Pythonic Games utilizes object-oriented programming and defines five classes and thirteen functions:
 
 - `class WordList:`
+
   - `def get_random_word()`
+
 - `class GameMenu`
+
   - `def display_menu(self)`
+
   - `def display_help(self)`
+
   - `def run(self):`
+
 - `class Hangman`
+
   - `def __init__(self, word):`
+
   - `def display_word(self):`
+
   - `def guess_letter(self):`
+
   - `def play(self):`
+
 - `class ScrambledWords`
+
   - `def __init__(self, word):`
+
   - `def scramble_word(self):`
+
   - `def play(self):`
+
 - `class ArithmeticGame`
+
   - `def generate_question(self):`
+
   - `def play(self)`
 
 ### Pythonic Games Word List
@@ -195,15 +251,19 @@ Pythonic Games has a list of words that is used by both Hangman and Scrambled Wo
 Pythonic Games has four input prompts, one for the game menu and one for each of the three games.
 
 - GameMenu
+
   - `choice = input(Fore.LIGHTYELLOW_EX + "Enter your choice: \n"`
 
 - Hangman
+
   - `guess = input(Fore.LIGHTYELLOW_EX + "Guess a letter: \n").lower()`
 
 - ScrambledWords
+
   - `guess = input(Fore.LIGHTYELLOW_EX + "Your guess: \n")`
 
 - ArithmeticGame
+
   - `user_answer = input(Fore.LIGHTCYAN_EX + question + "\n")`
 
 #### Pythonic Games Flowchart
@@ -463,6 +523,7 @@ Remark: Pythonic Games has undergone thorough testing. However, due to numerous 
 ### Validator Testing
 
 - PEP8
+
   - The CI Python Linter was used for validating adherence to PEP8 guidelines: [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
 Remark: Unfortunately, GitHub doesn't allow adding a newline at the end of the Python file.
@@ -474,20 +535,34 @@ Remark: Unfortunately, GitHub doesn't allow adding a newline at the end of the P
 This project was deployed using the Code Institute's mock terminal for Render.
 
 - Steps for deployment:
+
   - Fork the Python Essentials Template of the Code Institute on Github:
   [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+
   - Create a new Web Service in Render
+
   - Build and deploy from a Git repository in Render
+
   - Connect the project Github repository in Render
+
   - Enter a unique name for the Web Service in Render
+
   - Region: Frankfurt (EU Central)
+
   - Branch: main
+
   - Runtime: Python 3
+
   - Build Command: pip install -r requirements.txt && npm install
+
   - Start Command: node index.js
+
   - Instance type: Free
+
   - Environmental Variables: PORT, 8000
+
   - Auto-Deploy: Yes
+
   - Click on Create Web Service
 
 ## Credits
