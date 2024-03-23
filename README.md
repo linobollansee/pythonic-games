@@ -490,11 +490,17 @@ This project was deployed using the Code Institute's mock terminal for Render.
 - The Code Institute: [https://learn.codeinstitute.net/](https://learn.codeinstitute.net/)
 
   - The Learning Management System (LMS):
+  
     - Python Essentials
+
     - Matt Rudge: Portfolio Project 3 Scope video: ULTIMATE BATTLESHIPS game: Information about project coding structure.
+    
     ![Pythonic Games Portfolio Project 3 Scope Video](/readme/media/pythonic-games-portfolio-project-3-scope-video.png)
+   
     - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+  
     - README.md template from Portfolio Project Scope page.
+
     ![Pythonic Games Portfolio Project Scope README](/readme/media/pythonic-games-portfolio-project-scope-readme.png)
 
   - James Stone: E-mailed template advice when at least two possible options existed.
@@ -502,9 +508,13 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - Tutoring: Internal documents: Deployment to Render
 
   - Mentoring: Dick Vlaanderen:
+
     - Project input validation verification
+
     - Idea for the application help menu
+
     - Pycharm software lesson for docstrings
+
     - Flow diagram lesson with a suggestion to use [https://app.diagrams.net/](https://app.diagrams.net/) or [https://miro.com/](https://miro.com/) and provided a starting diagram via e-mail.
 
   - Slack channel: Ilyas Olgun [https://github.com/ilyasolgun11](https://github.com/ilyasolgun11) 
@@ -519,15 +529,21 @@ This project was deployed using the Code Institute's mock terminal for Render.
 - ChatGPT 3.5: [https://chat.openai.com/](https://chat.openai.com/)
   
   - Support for Python project:
+
     - Partial populating of text strings for the print() function.
+
     ![Pythonic Games ChatGPT Hangman Messages Displayed To Player](/readme/media/pythonic-games-chatgpt-hangman-messages-displayed-to-player.png)
+
     - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
+
     ![Pythonic Games Google Docstrings](/readme/media/pythonic-games-chatgpt-google-docstrings.png)
-    - Producing concise program examples to aid in exploring programming solutions. Unfortunately, many of them are not suited for direct implementation, as they often include inaccuracies stemming from the generative AI process, but if the questions are kept simple
-    the quality of the assistance can remain acceptable. See an interaction here:
+
+    - Producing concise program examples to aid in exploring programming solutions.
+
     ![Pythonic Games ChatGPT String Methods](/readme/media/pythonic-games-chatgpt-string-methods.png)
-    This approach can save syntax lookup-time at as little risk as possible.
+
     - Partial verification of the project code's accuracy, not very succcesful but it inadvertently provided useful information as a side effect.
+
     - Partial support for README.md: Improving grammar and finding synonyms. 
 
 - Notepad ++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
