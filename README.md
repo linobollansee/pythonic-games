@@ -397,6 +397,8 @@ webencodings==0.5.1
 websocket-client==1.7.0
 ```
 
+Remark: Only the colorama package is needed by this project.
+
 ### Remaining bugs
 
 Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
