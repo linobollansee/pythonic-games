@@ -23,17 +23,17 @@
     - [Pythonic Games Input Prompts](#pythonic-games-input-prompts)
     - [Pythonic Games Flowchart](#pythonic-games-flowchart)
     - [Pythonic Games Libraries](#pythonic-games-libraries)
-  - [Testing](#testing)
-    - [Bugs and Issues](#bugs-and-issues)
-      - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
-    - [Command-line interfaces](#command-line-interfaces)
-    - [Artificial intelligence verification](#artificial-intelligence-verification)
-    - [Browser compatibility](#browser-compatibility)
+  - [Bugs and Issues](#bugs-and-issues)
+    - [Codeanywhere and Heroku outages](#codeanywhere-and-heroku-outages)
     - [PEP8 errors](#pep8-errors)
     - [Cloud IDE errors](#cloud-ide-errors)
     - [Command pip3 freeze](#command-pip3-freeze)
     - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
+  - [Testing](#testing)   
+    - [Command-line interfaces](#command-line-interfaces)
+    - [Artificial intelligence verification](#artificial-intelligence-verification)
+    - [Browser compatibility](#browser-compatibility)
     - [Validator Testing](#validator-testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -218,11 +218,9 @@ Pythonic-Games imports the third-party colorama library in Python.
 
 This package simplifies printing colored text in terminals.
 
-## Testing
+## Bugs and Issues
 
-### Bugs and Issues
-
-#### Codeanywhere and Heroku outages
+### Codeanywhere and Heroku outages
 
 **EXTREMELY IMPORTANT INFORMATION: MUST READ**
 
@@ -243,42 +241,6 @@ Given that the assistance offered was not specifically designed for ordinary stu
 Given my previous difficult experiences with cloud platforms, I was extremely careful to limit the amounts of times I would "build" a project in Render, as to not spend build-hours and find myself locked-out of a cloud platform, so I decided I would often leave manual deployment set in place. 
 
 ![Pythonic Games Render auto deploy no](/readme/media/pythonic-games-render-auto-deploy-no.png)
-
-### Command-line interfaces
-
-Pythonic Games underwent local testing using the standard command prompt.
-
-![Pythonic Games Command Prompt](/readme/media/pythonic-games-command-prompt.png)
-
-The testing of Pythonic Games was also conducted locally using Windows PowerShell.
-
-![Pythonic Games Command Prompt](/readme/media/pythonic-games-powershell.png)
-
-And of course the mock terminal on the Render platform in a web browser.
-
-![Pythonic Games Command Prompt](/readme/media/pythonic-games-render.png)
-
-### Artificial intelligence verification
-
-ChatGPT was utilized to automatically verify attainment of project objectives
-
-![Pythonic Games ChatGPT](/readme/media/pythonic-games-chatgpt.png)
-
-### Browser compatibility
-
-The deployed site of Pythonic Games was play-tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and no errors were detected.
-
-Google Chrome Version 123.0.6312.59 (Official Build) (64-bit)
-
-![Pythonic Games Google Chrome](/readme/media/pythonic-games-google-chrome.png)
-
-Microsoft Edge Version 123.0.2420.53 (Official build) (64-bit)
-
-![Pythonic Games Microsoft Edge Chrome](/readme/media/pythonic-games-microsoft-edge.png)
-
-Mozilla Firefox 124.0.1 (64-bit)
-
-![Pythonic Games Mozilla Firefox](/readme/media/pythonic-games-mozilla-firefox.png)
 
 ### PEP8 errors
 
@@ -430,10 +392,6 @@ webencodings==0.5.1
 websocket-client==1.7.0
 ```
 
-### Screenshot mirroring
-
-Remark: Pythonic Games has undergone thorough testing. However, due to numerous test image screenshots mirroring those already present in existing features, they will not be replicated here.
-
 ### Remaining bugs
 
 Despite the absence of easy to find bugs within the program, several irregularities surfaced within the simulated terminal. Notably, pressing keys such as F1 through F12, insert, home, page up, del, end, page down, resulted in the generation of unexpected characters.
@@ -443,6 +401,48 @@ Despite the absence of easy to find bugs within the program, several irregularit
 Unfortunately, efforts to address these quirks were unsuccessful, as executing the same Python code outside of the simulated terminal failed to reproduce these anomalies. Moreover, adhering to instructions not to modify other files posed additional constraints.
 
 ![Pythonic Games do not edit files](/readme/media/pythonic-games-do-not-edit-files.png)
+
+## Testing
+
+### Command-line interfaces
+
+Pythonic Games underwent local testing using the standard command prompt.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-command-prompt.png)
+
+The testing of Pythonic Games was also conducted locally using Windows PowerShell.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-powershell.png)
+
+And of course the mock terminal on the Render platform in a web browser.
+
+![Pythonic Games Command Prompt](/readme/media/pythonic-games-render.png)
+
+### Artificial intelligence verification
+
+ChatGPT was utilized to automatically verify attainment of project objectives
+
+![Pythonic Games ChatGPT](/readme/media/pythonic-games-chatgpt.png)
+
+### Browser compatibility
+
+The deployed site of Pythonic Games was play-tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and no errors were detected.
+
+Google Chrome Version 123.0.6312.59 (Official Build) (64-bit)
+
+![Pythonic Games Google Chrome](/readme/media/pythonic-games-google-chrome.png)
+
+Microsoft Edge Version 123.0.2420.53 (Official build) (64-bit)
+
+![Pythonic Games Microsoft Edge Chrome](/readme/media/pythonic-games-microsoft-edge.png)
+
+Mozilla Firefox 124.0.1 (64-bit)
+
+![Pythonic Games Mozilla Firefox](/readme/media/pythonic-games-mozilla-firefox.png)
+
+### Screenshot mirroring
+
+Remark: Pythonic Games has undergone thorough testing. However, due to numerous test image screenshots mirroring those already present in existing features, they will not be replicated here.
 
 ### Validator Testing
 
