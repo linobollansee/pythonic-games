@@ -62,6 +62,10 @@ players only having one opportunity to guess the correct word.
 
 In the Arithmetic Game, players are presented with five mathematical calculations to solve after selecting the game from the menu. The objective is to solve each equation by inputting positive or negative numbers.
 
+When the user chooses the Help option from the menu, the game explanations will be shown.
+
+Selecting the Quit option from the menu causes the program to end.
+
 Playing a selected game to completion is required in order to return to the main menu.
 
 ## Features
@@ -261,6 +265,18 @@ ChatGPT was utilized to automatically verify attainment of project objectives
 ### Browser compatibility
 
 The deployed site of Pythonic Games was play-tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and no errors were detected.
+
+Google Chrome Version 123.0.6312.59 (Official Build) (64-bit)
+
+![Pythonic Games Google Chrome](/readme/media/pythonic-games-google-chrome.png)
+
+Microsoft Edge Version 123.0.2420.53 (Official build) (64-bit)
+
+![Pythonic Games Microsoft Edge Chrome](/readme/media/pythonic-games-microsoft-edge.png)
+
+Mozilla Firefox 124.0.1 (64-bit)
+
+![Pythonic Games Mozilla Firefox](/readme/media/pythonic-games-mozilla-firefox.png)
 
 ### PEP8 errors
 
