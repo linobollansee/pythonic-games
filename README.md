@@ -30,6 +30,7 @@
     - [Artificial intelligence verification](#artificial-intelligence-verification)
     - [Browser compatibility](#browser-compatibility)
     - [PEP8 errors](#pep8-errors)
+    - [Cloud IDE errors](#cloud-ide-errors)
     - [Screenshot mirroring](#screenshot-mirroring)
     - [Remaining bugs](#remaining-bugs)
     - [Validator Testing](#validator-testing)
@@ -281,6 +282,10 @@ Mozilla Firefox 124.0.1 (64-bit)
 ### PEP8 errors
 
 To correct PEP8 errors, Pythonic Games used string concatenation to seperate long print lines into multiple shorter lines.
+
+### Cloud IDE errors
+
+At times, Gitpod.io experienced malfunctions. In response, GitHub Codespaces was utilized, offering superior performance compared to other cloud IDEs synchronized with GitHub. Additionally, it was discovered that pressing the comma key after selecting a repository provided a quicker route to Codespaces.
 
 ### Screenshot mirroring
 
