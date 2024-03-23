@@ -484,6 +484,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
     ![Pythonic Games Portfolio Project 3 Scope Video](/readme/media/pythonic-games-portfolio-project-3-scope-video.png)
     - The template used in this project: [https://github.com/Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
     - README.md template from Portfolio Project Scope page.
+    ![Pythonic Games Portfolio Project Scope README](/readme/media/pythonic-games-portfolio-project-scope-readme.png)
 
   - James Stone: E-mailed template advice when at least two possible options existed.
 
@@ -558,4 +559,4 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
 - Continuously expanding one's knowledge and skills through ongoing learning and professional development opportunities is crucial for staying abreast of advancements in Python and related technologies. Whether through online courses, workshops, or participation in open-source projects, investing in personal growth ensures that developers remain competitive and adaptable in today's rapidly evolving tech landscape.
 
--  Considering the inherent challenges involved in created easily comprehensible commit messages for meticulously debugged Python code, it is strongly advised to allocate extra time towards thoroughly verifying the code before its initial commitment. This proactive approach not only minimizes the occurrence of unnecessary fixes within the repository but also ensures the perpetuation of clear and concise commit messages, contributing to the overall cleanliness and coherence of the project's version history.
+-  Considering the inherent challenges involved in creating easily comprehensible commit messages for meticulously debugged Python code, it is strongly advised to allocate extra time towards thoroughly verifying the code before its initial commitment. This proactive approach not only minimizes the occurrence of unnecessary fixes within the repository but also ensures the perpetuation of clear and concise commit messages, contributing to the overall cleanliness and coherence of the project's version history.
