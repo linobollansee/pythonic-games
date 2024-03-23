@@ -358,6 +358,7 @@ This project was deployed using the Code Institute's mock terminal for Render.
     - Partial populating of text strings for the print() function.
     ![Pythonic Games ChatGPT Hangman Messages Displayed To Player](/readme/media/pythonic-games-chatgpt-hangman-messages-displayed-to-player.png)
     - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
+    ![Pythonic Games Google Docstrings](/readme/media/pythonic-games-chatgpt-google-docstrings.png)
     - Producing concise program examples to aid in exploring programming solutions. Unfortunately, many of them are not suited for direct implementation, as they often include inaccuracies stemming from the generative AI process, but if the questions are kept simple
     the quality of the assistance can remain acceptable. See an interaction here:
     ![Pythonic Games ChatGPT String Methods](/readme/media/pythonic-games-chatgpt-string-methods.png)
