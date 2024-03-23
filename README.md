@@ -557,3 +557,5 @@ This project was deployed using the Code Institute's mock terminal for Render.
 - Securing deadline extensions due to technical outages is not only feasible but also highly advisable with appropriate justifications. In many cases, these extensions serve as crucial stress relievers, especially in light of the pervasive uncertainty surrounding the restoration of cloud platform services.
 
 - Continuously expanding one's knowledge and skills through ongoing learning and professional development opportunities is crucial for staying abreast of advancements in Python and related technologies. Whether through online courses, workshops, or participation in open-source projects, investing in personal growth ensures that developers remain competitive and adaptable in today's rapidly evolving tech landscape.
+
+-Given the difficulty of creating clear to understand commit messages for intricately debugged Python code, it's recommended to invest additional time in verifying code before commiting it originally. This practice ensures that the repository has fewer needless repairs and commit messages remain as clean as possible.
