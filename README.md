@@ -386,6 +386,8 @@ This project was deployed using the Code Institute's mock terminal for Render.
 
   - Source code from over 100 million developers to learn from.
 
+  - GitHub Codespaces
+
 - Gitpod: [https://www.gitpod.io/](https://www.gitpod.io/)
 
   - Online integrated development environment (Online IDE)
