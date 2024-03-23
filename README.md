@@ -356,9 +356,12 @@ This project was deployed using the Code Institute's mock terminal for Render.
   - Support for Python project:
     - Partial populating of text strings for the print() function.
     - Partial hash and docstring commenting, including the recommended format for docstrings, covering summary, description, parameters, return values, and examples.
-    - Producing concise program examples to aid in exploring programming solutions. These examples were not meant for direct implementation, as they often include inaccuracies stemming from the generative AI process.
+    - Producing concise program examples to aid in exploring programming solutions. Unfortunately, many of them are not suited for direct implementation, as they often include inaccuracies stemming from the generative AI process, but if the questions are kept simple
+    the quality of the assistance can remain acceptable. See an interaction here:
+    ![Pythonic Games ChatGPT String Methods](/readme/media/pythonic-games-chatgpt-string-methods.png)
+    This approach can save syntax lookup-time at as little risk as possible.
     - Partial verification of the project code's accuracy, not very succcesful but it inadvertently provided useful information as a side effect.
-    - Partial support for README.md: Improving grammar and finding synonyms.
+    - Partial support for README.md: Improving grammar and finding synonyms. 
 
 - Notepad ++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
